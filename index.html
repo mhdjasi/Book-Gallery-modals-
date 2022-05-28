@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Secular+One&display=swap" rel="stylesheet">
+
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/5897127e39.js" crossorigin="anonymous"></script>
+
+  <title>Book Gallery Modal</title>
+</head>
+
+<body style="background-color: rgb(213, 222, 223); width: 99%;">
+
+  <!-- navbar start here -->
+
+
+  <div class="row">
+
+    <div class="col-12">
+      <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(255, 88, 88);">
+        <div class="container-fluid">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <i class="fad fa-2x fa-book-reader text-light " style="font-family: 'Abril Fatface', cursive;">Book Box</i>
+
+          </a>
+          <div class="col-lg-3"></div>
+          <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+
+
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light me-5" style="font-size: 20px;font-family: 'Secular One', sans-serif;" aria-current="page"
+                  href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light me-5 " style="font-size: 20px; font-family: 'Secular One', sans-serif;" href="#book">Books</a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link active text-light " style="font-size: 20px; font-family: 'Secular One', sans-serif;" href="#contact">Contact</a>
+              </li>
+            </ul>
+
+
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+<section id="home">
+    <br><br><br><br><br><br><br><br><br>
+  
+    <!-- navbar end here -->
+  
+    <div class="row">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-8">
+        <center>
+          <h1 style="color: rgb(16, 138, 138); font-size: 80px; font-family: 'Secular One', sans-serif;">Passionate Reader</h1>
+          <h1 style="color: rgb(9, 44, 44); word-spacing: 30px; font-family: 'Secular One', sans-serif;">"The best is when you find a book you can't put down."
+          </h1>
+        </center>
+      </div>
+      <div class="col-lg-2"></div>
+    </div>
+    <br><br>
+  
+    <marquee style="font-size: 25px; color: red;font-family: 'Secular One', sans-serif;" behavior="" direction="left">"Everyone is a reader. Some just haven't
+      found their favorite book yet."</marquee>
+    <br><br><br><br>
+
+</section> 
+
+
+
+<section id="book">
+  <br><br><br><br>
+    <h1 style="font-family: 'Secular One', sans-serif;" class="container">Book Section</h1>
+    
+  
+    <div class="container">
+      <div class="row ms-5">
+        <div class="col-lg-4"><br>
+          <div class="card border border-danger " style="width: 13rem; background-color: rgb(196, 192, 189);">
+            <img style="height: 250px;"
+              src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398191249l/9297629.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 style="font-size: 20px;" class="card-title">Book Name : <span style="color: red;">Obama's Wars</span>
+              </h5>
+              <br> <!-- Button trigger modal -->
+              <button type="button" class="container btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">
+                View More
+              </button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 style=" color: red;" class="modal-title" id="staticBackdropLabel">Obama's Wars</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h5> Author : Bob Woodward</h5>
+                      <p style="text-align: justify;">The essential outline of the story journalist and political
+                        historian Bob Woodward sets out to tell in "
+                        Obama’s Wars” actually is fairly well known. President Obama’s agonized march to a decision on how
+                        to move
+                        forward in what he has called “a war of necessity” in Afghanistan has been widely reported and
+                        analyzed</p>
+                      <h5 id="read">For Read : <a
+                          href="https://www.goodreads.com/book/show/9297629-obama-s-wars?ac=1&from_search=true&qid=DjMost6Vqn&rank=1"
+                          target="_blank">
+                          Click here</a> </h5>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4"><br>
+          <div class="card border border-danger " style="width: 13rem; background-color: rgb(196, 192, 189);">
+            <img style="height: 250px;"
+              src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320560971l/112803.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 style="font-size: 20px;" class="card-title">Book Name : <span style="color: red;">Gandhi: An
+                  Autobiography</span> </h5>
+              <!-- Button trigger modal -->
+              <button type="button" class="container btn btn-primary" data-bs-toggle="modal" data-bs-target="#gandhi">
+                View More
+              </button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="gandhi" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 style=" color: red;" class="modal-title" id="staticBackdropLabel">Gandhi: An Autobiography</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h5> Author : Mahatma Gandhi, Mahadev Desai (Translator)</h5>
+                      <p style="text-align: justify;">Mohandas K. Gandhi is one of the most inspiring figures of our time.
+                        In his classic autobiography he
+                        recounts the story of his life and how he developed his concept of active nonviolent resistance,
+                        which
+                        propelled the Indian struggle for independence and countless other nonviolent struggles of the
+                        twentieth
+                        century.</p>
+                      <h5 id="read">For Read : <a
+                          href="https://www.goodreads.com/book/show/112803.Gandhi?ac=1&from_search=true&qid=HTQawAdOT6&rank=1"
+                          target="_blank">
+                          Click here</a> </h5>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4"><br>
+          <div class="card border border-danger " style="width: 13rem; background-color: rgb(196, 192, 189);">
+            <img style="height: 250px;"
+              src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588286863l/634583._SY475_.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 style="font-size: 20px;" class="card-title">Book Name : <span style="color: red;">Wings of Fire: An
+                  Autobiography</span> </h5>
+              <!-- Button trigger modal -->
+              <button type="button" class="container btn btn-primary" data-bs-toggle="modal" data-bs-target="#wings">
+                View More
+              </button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="wings" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 style=" color: red;" class="modal-title" id="staticBackdropLabel">Wings of Fire: An
+                        Autobiography</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h5> Author : A.P.J. Abdul Kalam, Arun Tiwari (Contributor)</h5>
+                      <p style="text-align: justify;">This is the story of Kalam's rise from obscurity and his personal
+                        and professional struggles, as well as the
+                        story of Agni, Prithvi, Akash, Trishul and Nag-missiles that have become household names in India
+                        and that
+                        have raised the nation to the level of a missile power of international reckoning.</p>
+                      <h5 id="read">For Read : <a
+                          href="https://www.goodreads.com/book/show/634583.Wings_of_Fire?ac=1&from_search=true&qid=9cur7e0tkT&rank=4"
+                          target="_blank">
+                          Click here</a> </h5>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- 2nd row -->
+  
+    <div class="container">
+      <div class="row ms-5">
+        <div class="col-lg-4"><br>
+          <div class="card border border-danger " style="width: 13rem; background-color: rgb(196, 192, 189);">
+            <img style="height: 250px;"
+              src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543429790l/106590._SY475_.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 style="font-size: 20px;" class="card-title">Book Name : <span style="color: red;">Lincoln</span> </h5>
+              <br> <!-- Button trigger modal -->
+              <button type="button" class="container btn btn-primary" data-bs-toggle="modal" data-bs-target="#Lincoln">
+                View More
+              </button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="Lincoln" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 style=" color: red;" class="modal-title" id="staticBackdropLabel">Lincoln</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h5> Author : David Herbert Donald</h5>
+                      <p style="text-align: justify;"> Lincoln is a stunning portrait of
+                        Abraham Lincoln’s life and presidency.
+  
+                        Donald brilliantly depicts Lincoln’s gradual ascent from humble beginnings in rural Kentucky to
+                        the
+                        ever-expanding political circles in Illinois, and finally to the presidency of a country divided
+                        by civil
+                        war.</p>
+                      <h5 id="read">For Read : <a
+                          href="https://www.goodreads.com/book/show/106590.Lincoln?from_search=true&from_srp=true&qid=aqP5QMzYrs&rank=8"
+                          target="_blank">
+                          Click here</a> </h5>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4"><br>
+          <div class="card border border-danger " style="width: 13rem; background-color: rgb(196, 192, 189);">
+            <img style="height: 250px;"
+              src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349050318l/231610.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 style="font-size: 20px;" class="card-title">Book Name : <br> <span style="color: red;">The World As I
+                  See It</span> </h5>
+              <!-- Button trigger modal -->
+              <button type="button" class="container btn btn-primary" data-bs-toggle="modal" data-bs-target="#albert">
+                View More
+              </button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="albert" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 style=" color: red;" class="modal-title" id="staticBackdropLabel">The World As I See It</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h5> Author : Albert Einstein</h5>
+                      <p style="text-align: justify;">To the majority of people Einstein's theory is a complete mystery.
+                        Their attitude towards Einstein is like
+                        that of Mark Twain towards the writer of a work on mathematics: here was a man who had written an
+                        entire
+                        book of which Mark could not understand a single sentence.</p>
+                      <h5 id="read">For Read : <a
+                          href="https://www.goodreads.com/book/show/231610.The_World_As_I_See_It?ac=1&from_search=true&qid=FNpLVStJVu&rank=1"
+                          target="_blank">
+                          Click here</a> </h5>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4"><br>
+          <div class="card border border-danger " style="width: 13rem; background-color: rgb(196, 192, 189);">
+            <img style="height: 250px;"
+              src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327997342l/318431.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 style="font-size: 20px;" class="card-title">Book Name : <br> <span style="color: red;">Long Walk to
+                  Freedom</span> </h5>
+              <!-- Button trigger modal -->
+              <button type="button" class="container btn btn-primary" data-bs-toggle="modal" data-bs-target="#nelson">
+                View More
+              </button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="nelson" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 style=" color: red;" class="modal-title" id="staticBackdropLabel">Long Walk to Freedom</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h5> Author : Nelson Mandela</h5>
+                      <p style="text-align: justify;">Mandela has been at the center of the most compelling and inspiring
+                        political drama in the world. As
+                        president of the African National Congress and head of South Africa's anti-apartheid movement, he
+                        was
+                        instrumental in moving the nation toward multiracial government and majority rule.</p>
+                      <h5 id="read">For Read : <a
+                          href="https://www.goodreads.com/book/show/318431.Long_Walk_to_Freedom?ac=1&from_search=true&qid=n2ry7ZdGH5&rank=2"
+                          target="_blank">
+                          Click here</a> </h5>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- 3rd row -->
+  
+    <div class="container">
+      <div class="row ms-5">
+        <div class="col-lg-4"><br>
+          <div class="card border border-danger " style="width: 13rem; background-color: rgb(196, 192, 189);">
+            <img style="height: 250px;"
+              src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375414895l/17851885.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 style="font-size: 20px;" class="card-title">Book Name : <span style="color: red;">I Am Malala:</span>
+              </h5>
+              <br> <!-- Button trigger modal -->
+              <button type="button" class="container btn btn-primary" data-bs-toggle="modal" data-bs-target="#malala">
+                View More
+              </button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="malala" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 style=" color: red;" class="modal-title" id="staticBackdropLabel">I Am Malala:</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h5> Author : Malala Yousafzai, Christina Lamb</h5>
+                      <p style="text-align: justify;"> I Am Malala is the remarkable tale of a family uprooted by global
+                        terrorism, of the fight for girls'
+                        education, of a father who, himself a school owner, championed and encouraged his daughter to
+                        write and
+                        attend school, and of brave parents who have a fierce love for their daughter in a society that
+                        prizes sons.
+                      </p>
+                      <h5 id="read">For Read : <a
+                          href="https://www.goodreads.com/book/show/17851885-i-am-malala?ac=1&from_search=true&qid=TVQMNfogzG&rank=1"
+                          target="_blank">
+                          Click here</a> </h5>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4"><br>
+          <div class="card border border-danger " style="width: 13rem; background-color: rgb(196, 192, 189);">
+            <img style="height: 250px;"
+              src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1478144278l/2203._SY475_.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 style="font-size: 20px;" class="card-title">Book Name : <br> <span style="color: red;">John Adams</span>
+              </h5><br>
+              <!-- Button trigger modal -->
+              <button type="button" class="container btn btn-primary" data-bs-toggle="modal" data-bs-target="#jhon">
+                View More
+              </button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="John" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 style=" color: red;" class="modal-title" id="staticBackdropLabel">John Adams</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h5> Author : David McCullough</h5>
+                      <p style="text-align: justify;">This is history on a grand scale -- a book about politics and war
+                        and social issues, but also about human
+                        nature, love, religious faith, virtue, ambition, friendship and betrayal. Above all, John Adams is
+                        an enthralling, often surprising story of one of the most important
+                        and fascinating Americans who ever lived.</p>
+                      <h5 id="read">For Read : <a href="https://www.goodreads.com/book/show/2203.John_Adams"
+                          target="_blank">
+                          Click here</a> </h5>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4"><br>
+          <div class="card border border-danger " style="width: 13rem; background-color: rgb(196, 192, 189);">
+            <img style="height: 250px;"
+              src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639380433l/57851735.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 style="font-size: 20px;" class="card-title">Book Name : <br> <span style="color: red;">Comedy Comedy
+                  Comedy Drama</span> </h5>
+              <!-- Button trigger modal -->
+              <button type="button" class="container btn btn-primary" data-bs-toggle="modal" data-bs-target="#comedy">
+                View More
+              </button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="comedy" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 style=" color: red;" class="modal-title" id="staticBackdropLabel">Comedy Comedy Comedy Drama
+                      </h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h5> Author : Bob Odenkirk </h5>
+                      <p style="text-align: justify;">In this hilarious, heartfelt memoir, the star of Mr. Show, Breaking
+                        Bad, Better Call Saul, and Nobody opens up about the highs and lows of showbiz, his legendary cult
+                        status as a comedy writer, and what it's like to reinvent himself as a no-holds-barred action film
+                        ass-kicker at fifty.</p>
+                      <h5 id="read">For Read : <a
+                          href="https://www.goodreads.com/book/show/57851735-comedy-comedy-comedy-drama"
+                          target="_blank">
+                          Click here</a> </h5>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+  <!-- book section end here -->
+   <section id="contact">
+    <br><br>
+  
+  
+    <div style="background-color: rgb(207, 181, 133);" class="row">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-6 container">
+        <center>
+          <h1 style="letter-spacing: 5px;font-family: 'Secular One', sans-serif;">Follow us</h1><br>
+      
+      <a class="ms-1 fs-5 text-light" href="https://www.instagram.com/" target="_blank"> <i class="fab fa-2x fa-instagram ms-3"></i></a>
+      <a class="ms-1 fs-5 text-light" href="https://www.facebook.com/" target="_blank"><i class="fab fa-2x fa-facebook ms-3"></i></a>
+      <a class="ms-3 fs-5 text-light" href="https://twitter.com/i/flow/login/" target="_blank"><i class="fab fa-2x fa-twitter"></i></a>
+     
+        </center>
+        <br><br><br><br>
+      </div>
+      <div class="col-lg-3 mt-5">
+  <center>
+          <i class="fad fa-3x fa-book-reader text-dark " style=" font-family: 'Abril Fatface', cursive;">Book Box</i>
+  
+  </center>     
+   </div>
+    </div>
+    
+  <!-- book section end here -->
+
+</section>
+
+
+
+
+</body>
+
+</html>
